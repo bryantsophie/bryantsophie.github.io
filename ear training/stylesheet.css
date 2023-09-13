@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(159, 172, 176);
+    font-family: calibri;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+h1 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+audio {
+    margin-bottom: 10px;
+}
+
+#quiz-form {
+    display: inherit;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+button {
+    margin-top: 10px;
+}
+
+#audio-player {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

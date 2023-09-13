@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>Audio</title>
+</head>
+<body>
+    <header>
+        <h1>CLUE #2: EAR TRAINING</h1>
+    </header>
+    <main>
+        <h2>Audio Files</h2>
+        <audio id="audio-player" controls>
+            <source src="audio1.mp3" type="audio/mpeg">
+        </audio>
+        <audio id="audio-player" controls>
+            <source src="audio2.mp3" type="audio/mpeg">
+        </audio>
+        <audio id="audio-player" controls>
+            <source src="audio3.mp3" type="audio/mpeg">
+        </audio>
+        <audio id="audio-player" controls>
+            <source src="audio4.mp3" type="audio/mpeg">
+        </audio>
+        <audio id="audio-player" controls>
+            <source src="audio5.mp3" type="audio/mpeg">
+        </audio>
+        
+        <form id="quiz-form" onsubmit="return verifyAnswers()">
+            <label for="answer1">File 1: </label>
+            <input type="text" id="answer1" name="answer1" required>
+            <label for="answer2">File 2: </label>
+            <input type="text" id="answer2" name="answer2" required>
+            <label for="answer3">File 3: </label>
+            <input type="text" id="answer3" name="answer3" required>
+            <label for="answer4">File 4: </label>
+            <input type="text" id="answer4" name="answer4" required>
+            <label for="answer5">File 5: </label>
+            <input type="text" id="answer5" name="answer5" required>
+            <button type="submit">Submit Answers</button>
+        </form>
+        <p id="quiz-result"></p>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
