@@ -1,10 +1,10 @@
 function verifyAnswers() {
   var answers = [
-    "Bbm7 3rd inversion",
+    "B flat minor 7 3rd inversion",
     "G sharp major suspended 4th",
     "E flat minor 7th 1st inversion",
-    "phrygian chord 4 or A minor",
-    "D augumented 7th",
+    "A minor",
+    "D augmented 7th",
   ];
 
   var userAnswers = [
